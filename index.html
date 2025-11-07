@@ -15,6 +15,7 @@
 			href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
 			rel="stylesheet"
 		/>
+		<link rel="stylesheet"  href="./style.css" />
 		<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 		<style type="text/tailwindcss">
 			@theme {
@@ -31,7 +32,7 @@
 	<body class="w-screen min-h-dvh">
 		<<header class="bg-white py-16">
 			<!-- Desktop -->
-			<nav class="flex items-center justify-between px-6 py-8 ">
+			<nav class="flex items-center justify-between px-6 py-8 ">  
 				<!-- Logo -->
 				<div class="hidden md:flex items-center ">
 					<img src="images/ic-logo.svg" alt="ColmarLogo"  />
@@ -56,28 +57,178 @@
 				 </div>
 			</nav>
 		</header>
-		</header>
 
+ 
 		<!-- main -->
 		 <main>
 			<!-- mobile-main -->
-			<section class="hero  bg-gray-200">
-				<div class="md:flex justify-items-center">
-					<img src="images/banner.jpg" alt="banner">
+			<!-- <section class="hero  bg-gray-200 flex flex-col md:flex-row items-center md:items-start justify-center px-6">
+				<div class="w-full md:3/5">
+					<img src="images/banner.jpg" alt="#"  >
 				</div>
 
-				<div class="px-4 text-left mx-auto " >
-					<h1 class="mt-8 text-5xl font-extrabold text-gray-600 font-sans">Learn something <br>new everyday</h1>
-					<p class="my-8 text-gray-600 text-lg">Lorem ipsum dolor sit amet <br> consectetur adipisicing elit. Repudiandae, unde.</p>
-					<button class="bg-gray-500 text-white px-8 py-3 rounded-md justify-items-center bottom-8">Start here</button>
+				<div class="px-4  mx-auto md:text-leftv   max-w-4xl" >
+					<h1 class="mt-8 text-4xl text-justify font-extrabold text-gray-600 font-sans leading-normal">Learn something <br>new everyday</h1>
+					<p class="my-8 text-gray-600 text-2xl font-medium text-justify leading-normal">Lorem ipsum dolor sit amet, <br> consectetur adipisicing elit.</p>
+					<button class="bg-gray-500 text-white px-60 py-3 rounded-md w-fit justify-items-center mb-8">Start here</button>
+				</div>
+			</section> -->
+			<section>
+				<div>
+					<img src="images/banner.jpg "/>
+				</div>
+				<div>
+					<h1>Learn something <br>new everyday</h1>
+					<p>Lorem ipsum dolor sit amet, <br> consectetur adipisicing elit.</p>
+					<button>Start here</button>
 				</div>
 			</section>
-			<section class="information"></section>
-			<section class="thesis"></section>
+			<!-- Information -->
+			<section id="information-content">
+				<div id="content-left">
+					<img src="images/information-main.jpg" alt="Man read a book" class="w-16 md:w-32 lg:w-48">
+					<h1>It doesn't hurt to keep practicing</h1>
+					<p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et
+          				commodo lectus,nec consequat neque. Sed non accumsan urna. Phasellus
+          				sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat,
+          				tristique ligula"</p>
+					<p class="content-left-bottom">Emauel, Sr Strategist at Hiring.com</p>
+				</div>
+				<div id="content-right">
+					<div>
+						<img src="images/information-orientation.jpg" alt="Orientation">
+						<div class="content-right-text">
+							<h2>Orientation date</h2>
+							<p>Tue 10/11 & Wed 10/12: 8am-3pb</p>
+							<p class="read-more">Read more</p>
+						</div>
+					</div>
+					<div>
+						<img src="images/information-campus.jpg" alt="campus">	
+						<div class="content-right-text">
+							<h2>Our campus</h2>
+							<p>Find which campus is close by you</p>
+							<p class="read-more">Read more</p>
+						</div>
+					</div>
+					<div id="content-right-3">
+						<img src="images/information-guest-lecture.jpg" alt="guest">
+						<div class="content-right-text">
+							<h2>Our guest lecture</h2>
+							<p>Join a keynote with Olive Sack about music in medical treatment</p>
+							<p class="read-more">Read more</p>
+						</div>
+					</div>
+				</div>
+
+
+			</section>
+			<section class="course">
+				<h2>Start-learning</h2>
+				<div id="start-learning-1">
+					<div>
+						<img src="images/course-software.jpg" alt="Software">
+						<div  class="start-learning-text">
+							<h2>Software engineering</h2>
+							<p>COURSES</p>
+							<p>Web Develpment, Mobile Development, iOT, APIs</p>
+						</div>
+					</div>	
+				</div>
+				<div id="start-learning-center">
+					<div>
+						<img src="images/course-computer-art.jpg" alt="Computer">
+						<div  class="start-learning-text">
+							<h2>Computer art</h2>
+							<p>COURSES</p>
+							<p>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
+						</div>
+					</div>
+					
+				</div>
+				<div id="start-learning-R1">
+					<div>
+						<img src="images/course-design.jpg" alt="Design" alt="Software">
+						<div  class="start-learning-text">
+							<h2>Design</h2>
+							<p>COURSES</p>
+							<p>User Experience Design, User Reseach, Visual Design</p>
+						</div>
+					</div>
+					
+				</div>
+				<div id="start-learning-L2">
+					<div>
+						<img src="images/course-data.jpg" alt="Data">
+						<div  class="start-learning-text">
+							<h2>Data</h2>
+							<p>COURSES</p>
+							<p>Data Science, Big Data, SQL, Data Visualization</p>
+						</div>
+					</div>
+					
+				</div>
+				<div id="start-learning-center">
+					<div>
+						<img src="images/course-software.jpg" alt="Software">
+						<div  class="start-learning-text">
+							<h2>Busineess</h2>
+							<p>COURSES</p>
+							<p>Product Development, Business Development, Startup</p>
+						</div>
+					</div>
+					
+				</div>
+				<div id="start-learning-L2">
+					<div>
+						<img src="images/course-marketing.jpg" alt="Marketing">
+						<div  class="start-learning-text">
+							<h2>Marketing</h2>
+							<p>COURSES</p>
+							<p>WAnalytics, Content Marketing, Mobile Marketing</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="thesis">
+				<h1 class="thesis-title">Thesis exhibit</h1>
+				<article id="thesis">
+					<div id="thesis-left">
+						<video src="videos/thesis.mp4" width="100%">Your browser does not support the video tag</video>
+						<div id="thesis-text">
+							<h2>Reimagine urban</h2>
+							<p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et
+            				commodo lectus,nec consequat neque. Sed non accumsan urna. Phasellus
+            				sed consequat ex. Etiam eget magna laoreet, efficitur dolor
+            				consequat, tristique ligula"</p>
+						</div>
+					</div>
+					<div id="thesis-right">
+						<div id="thesis-right1">
+							<img src="images/thesis-fisma.jpg" alt="fisma"/>
+							<div id="thesis-right-text">
+								<h2>Fisma: Design and Prototype</h2>
+								<p>Designer showcase of new prototype product</p>
+							</div>
+						</div>
+						<div id="thesis-right2">
+							<img src="images/thesis-now-and-then.jpg" alt="Now and then"/>
+							<div id="thesis-right-text">
+								<h2>Now and then</h2>
+								<p>Research study about New York</p>
+							</div>
+						</div>
+					</div>
+				</article>
+			</section>
 		 </main>
 		 <!-- footer -->
 		  <footer>
-			<div></div>
+			<p>© 2016 Colmar Academy. All right reserved</p>
+			<div class="footer-right">
+				<p>Terms</p>
+				<p>Privacy</p>
+			</div>
 		  </footer>
 	</body>
 </html>
